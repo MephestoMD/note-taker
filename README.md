@@ -1,7 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   # <a name = "Title">note-taker</a>
-  <a href = "https://drive.google.com/file/d/1HdfRzSnl2AniHa7n9MdE-p3G4hOXBn0r/view"> Screencastify Video Demonstration </a>
   
   ## <a name = "Description">Description</a>
   
@@ -44,6 +43,17 @@
 
   With the server.js running, load index.html and click 'Get Started.' Notes can be typed with titles and content and then saved in the list by clicking the save icon. Notes can be deleted with the trash icon.
 
+  Here is the note-taker homepage:
+  ![Homepage](.\Assets\note_taker_homepage.PNG)
+
+  Here is the note-taker functional app page:
+
+  ![notes.html](.\Assets\note_taker_notesHTML.PNG)
+
+  Here is the note-taker app with a note added (note the delete icon):
+
+  ![note added](.\Assets\note_taker_testNote1.PNG)
+
   ## <a name = "Contributing">Contributing</a>
 
     Please see https://www.contributor-covenant.org/ for contributition guidelines.
@@ -58,10 +68,6 @@
     The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-  
-
-  ## <a name = "Tests">Tests</a>
-
   
 
   ## <a name = "Questions">Questions</a>

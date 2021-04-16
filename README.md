@@ -44,15 +44,15 @@
   With the server.js running, load index.html and click 'Get Started.' Notes can be typed with titles and content and then saved in the list by clicking the save icon. Notes can be deleted with the trash icon.
 
   Here is the note-taker homepage:
-  ![Homepage](.\Assets\note_taker_homepage.PNG)
+  ![Homepage](./Assets/note_taker_homepage.PNG)
 
   Here is the note-taker functional app page:
 
-  ![notes.html](.\Assets\note_taker_notesHTML.PNG)
+  ![notes.html](./Assets/note_taker_notesHTML.PNG)
 
   Here is the note-taker app with a note added (note the delete icon):
 
-  ![note added](.\Assets\note_taker_testNote1.PNG)
+  ![note added](./Assets/note_taker_testNote1.PNG)
 
   ## <a name = "Contributing">Contributing</a>
 

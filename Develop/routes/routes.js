@@ -8,7 +8,6 @@ module.exports = app => {
     fs.readFile(path.join(__dirname, "../db/db.json"), "utf8", (err, data) => {
         if (err) throw err
         notesArray = JSON.parse(data);
-        console.log(notesArray);
         
         // GET request to populate current notes
         app.get("/api/notes", (req, res) => {
@@ -32,11 +31,11 @@ module.exports = app => {
         });
 
         app.delete("/api/notes/:id", function(req, res) {
+            
+            // Logic to grab the id of the currently selected element
             const idIndex = notesArray.indexOf(notesArray.find(element => element.id === req.params.id));
-            console.log(idIndex);
-            if (idIndex < 0){
-                throw err;
-            }
+            
+            // .splice() to remove the selected element from the notesArray array
             notesArray.splice(idIndex, 1);
             fs.writeFile(path.join(__dirname, "../db/db.json"), JSON.stringify(notesArray), (err) => {
                 if (err) throw err;
@@ -45,10 +44,12 @@ module.exports = app => {
             console.log("Deleted note!")
         });
 
+        // Route to handle the request to open the notes.html page
         app.get("/notes", (req, res) => {
             res.sendFile(path.join(__dirname, "../public/notes.html"));
             });
     
+        // Route to handle all other instances of get requests and route them to the index.html page
         app.get("*", (req, res) => {
             res.sendFile(path.join(__dirname, "../public/index.html"));
           });

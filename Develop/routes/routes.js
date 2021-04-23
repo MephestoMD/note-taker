@@ -50,7 +50,7 @@ module.exports = app => {
             });
     
         // Route to handle all other instances of get requests and route them to the index.html page
-        app.get("*", (req, res) => {
+        app.get("/", (req, res) => {
             res.sendFile(path.join(__dirname, "../public/index.html"));
           });
            
